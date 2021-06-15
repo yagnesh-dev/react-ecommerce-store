@@ -6,7 +6,7 @@ function CardItem(props) {
         <li className="card__item">
             <Link className="cards__item__link" to={props.path}>
             <figure className="cards__item__pic-wrap" data-category={props.label}>
-                <img src={props.src} alt="Circuit Image" className="cards__item__img" />
+                <img src={props.src} alt="Circuit" className="cards__item__img" />
             </figure>
             <div className="cards__item__info">
                 <h5 className="cards__item__text">

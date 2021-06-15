@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import LogoImg from "../technodelogo.png";
 import styled from "styled-components";
 import CustomButton from './CustomButton'
-import { ButtonContainer } from "./Button";
 import './Navbar.css'
 
 function Navbar() {

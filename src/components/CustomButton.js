@@ -1,7 +1,6 @@
 import React from "react";
 import "./CustomButton.css";
 import { Link } from "react-router-dom";
-import { Button } from "bootstrap";
 
 const STYLES = ["btn--primary", "btn--outline"];
 

@@ -5,6 +5,9 @@ import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom';
 import {ProductProvider} from './context';
 import reportWebVitals from './reportWebVitals';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <React.StrictMode>

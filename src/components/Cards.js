@@ -35,34 +35,34 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='img/product-3.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              text='Technodes has an awesome range of Products. Click here to learn more!!'
+              label='Innovation'
               path='/services'
             />
             <CardItem
               src='img/product-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              text='Technodes has an awesome range of Products. Click here to learn more!!'
+              label='Technology'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='img/product-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              text='Technodes has an awesome range of Products. Click here to learn more!!'
+              label='Robotics'
               path='/services'
             />
             <CardItem
               src='img/product-2.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              text='Technodes has an awesome range of Products. Click here to learn more!!'
+              label='Innovation'
               path='/products'
             />
             <CardItem
               src='img/product-1.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              text='Technodes has an awesome range of Products. Click here to learn more!!'
+              label='Technology'
               path='/sign-up'
             />
           </ul>

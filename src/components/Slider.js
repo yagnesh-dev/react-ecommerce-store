@@ -1,32 +1,19 @@
-import React from 'react';
-import Button from './CustomButton';
-import '../App.css';
-import './Slider.css';
-
-
-function Slider() {
+import React ,{useState,useEffect} from 'react';
+//import Button from './CustomButton';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+const Slider = () => {
+    const [duration,setDuration]  = useState(0.5);
+    useEffect(() => {
+        setDuration(0.5);
+      }, []);
     return (
-        <div className="slider-container">
-            <video src="/videos/video-2.mp2" autoPlay loop muted />
-            <h1>WELCOME TO TECHNODES</h1>
-            <p>Explore the electronic world</p>
-            <div className="slider-btns">
-                <Button
-                className="btns"
-                buttonStyle="btn--outline"
-                buttonSize='btn--large'
-                >
-                    GET STARTED
-                </Button>
-                <Button
-                className="btns"
-                buttonStyle="btn--primary"
-                buttonSize='btn--large'
-                >
-                    WATCH TRAILER<i className="far fa-play-circle" />
-                </Button>
-            </div>
-        </div>
+        <AwesomeSlider transitionDelay={duration}>
+          <div data-src="img/bg1.jpg" />
+          <div data-src="img/bg3.jpg" />
+          <div data-src="img/bg4.jpg" />
+        </AwesomeSlider>
+          
     );
 }
 

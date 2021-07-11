@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import LogoImg from "../technodelogo.png";
-import styled from "styled-components";
+//import styled from "styled-components";
 import CustomButton from './CustomButton'
 import './Navbar.css'
 
@@ -42,7 +42,7 @@ function Navbar() {
               <Link to="/products" className="nav-links" onClick={closeMobileMenu}>Product</Link>
             </li>
          
-            <li className="nav-item">{true ? <Link to="/sign-up" className="nav-links-mobile nav-links" onClick={closeMobileMenu}>Sign Up</Link> :
+            <li className="nav-item">{false ? <Link to="/sign-up" className="nav-links-mobile nav-links" onClick={closeMobileMenu}>Sign Up</Link> :
               <Link to="/cart" className="nav-links" onClick={closeMobileMenu}>
                 <span className="mr-2">
                   <i className="fas fa-cart-plus"> My Cart</i>
@@ -86,13 +86,13 @@ function Navbar() {
     // </React.Fragment>
   );
 }
-const NavWrapper = styled.nav`
-  background: var(--mainBlue);
-  .nav-link {
-    color: var(--mainWhite) !important;
-    font-size: 1.3rem;
-    text-transform: capitalize !important;
-  }
-`;
+// const NavWrapper = styled.nav`
+//   background: var(--mainBlue);
+//   .nav-link {
+//     color: var(--mainWhite) !important;
+//     font-size: 1.3rem;
+//     text-transform: capitalize !important;
+//   }
+// `;
 
 export default Navbar;
